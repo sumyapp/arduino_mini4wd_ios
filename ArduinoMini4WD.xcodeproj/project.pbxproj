@@ -21,6 +21,7 @@
 		AC3711E319724B230091DFC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3711C519724B210091DFC5 /* UIKit.framework */; };
 		AC3711EB19724B230091DFC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC3711E919724B230091DFC5 /* InfoPlist.strings */; };
 		AC3711ED19724B230091DFC5 /* ArduinoMini4WDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3711EC19724B230091DFC5 /* ArduinoMini4WDTests.m */; };
+		AC3711FA19724B610091DFC5 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3711F819724B610091DFC5 /* BLE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		AC3711E819724B230091DFC5 /* ArduinoMini4WDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArduinoMini4WDTests-Info.plist"; sourceTree = "<group>"; };
 		AC3711EA19724B230091DFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC3711EC19724B230091DFC5 /* ArduinoMini4WDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArduinoMini4WDTests.m; sourceTree = "<group>"; };
+		AC3711F719724B610091DFC5 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		AC3711F819724B610091DFC5 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		AC3711F919724B610091DFC5 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		AC3711C019724B210091DFC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC3711F619724B610091DFC5 /* BLE */,
 				AC3711C119724B210091DFC5 /* Foundation.framework */,
 				AC3711C319724B210091DFC5 /* CoreGraphics.framework */,
 				AC3711C519724B210091DFC5 /* UIKit.framework */,
@@ -150,6 +155,16 @@
 				AC3711E919724B230091DFC5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC3711F619724B610091DFC5 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				AC3711F719724B610091DFC5 /* BLE.h */,
+				AC3711F819724B610091DFC5 /* BLE.m */,
+				AC3711F919724B610091DFC5 /* BLEDefines.h */,
+			);
+			path = BLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +267,7 @@
 				AC3711D819724B230091DFC5 /* ViewController.m in Sources */,
 				AC3711D219724B220091DFC5 /* AppDelegate.m in Sources */,
 				AC3711CE19724B220091DFC5 /* main.m in Sources */,
+				AC3711FA19724B610091DFC5 /* BLE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
