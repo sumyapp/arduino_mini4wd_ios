@@ -1,14 +1,14 @@
 //
-//  AppDelegate.m
-//  ArduinoMini4WD
+//  RBLAppDelegate.m
+//  BLE Select
 //
-//  Created by Sumi Koichiro on 2014/07/13.
-//  Copyright (c) 2014年 sumyapp. All rights reserved.
+//  Created by Chi-Hung Ma on 4/24/13.
+//  Copyright (c) 2013 RedBearlab. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "RBLAppDelegate.h"
 
-@implementation AppDelegate
+@implementation RBLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
